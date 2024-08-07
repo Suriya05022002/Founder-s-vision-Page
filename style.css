@@ -1,0 +1,289 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, #ff8a00, #e52e71, #9c27b0, #3f51b5); /* Gradient matching body background for seamless effect */
+    color: #fff; /* White text for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px 0; /* Adjust padding for better spacing */
+    margin-bottom: 20px; /* Space between header and main content */
+}
+
+.header-logo {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding:7px;
+}
+
+/* Section Styles */
+.section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px; /* Adjusted padding for bottom spacing */
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-section {
+    flex: 1 1 45%;
+}
+
+.image-section img {
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.content-section {
+    flex: 1 1 50%;
+    padding-left: 2%;
+}
+
+/* Title and Content Styling */
+.title h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #ff005c;
+    margin-bottom: 20px; /* Add margin for spacing below title */
+}
+
+.content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+    padding-bottom: 10px; /* Padding to separate text from the border */
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.8; /* Increased line height for better readability */
+    color: #333; /* Darker color for better contrast */
+    text-align: justify; /* Justify text for a cleaner look */
+    padding: 0 15px; /* Added padding for better text alignment */
+}
+
+/* Bullet Points Styling */
+.content ul {
+    margin: 20px 0;
+    padding-left: 20px; /* Indent list items */
+}
+
+.content ul li {
+    font-size: 18px;
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 10px; /* Space between list items */
+    color: #333; /* Dark color for list items */
+    position: relative; /* Position relative for custom bullet styling */
+}
+
+.content ul li::before {
+    content: '•'; /* Custom bullet character */
+    color: #ff005c; /* Color of the bullet */
+    font-size: 24px; /* Size of the bullet */
+    position: absolute; /* Absolute positioning for custom bullets */
+    left: -25px; /* Adjust to position the bullet */
+    top: 0; /* Align with the top of the list item */
+}
+
+/* Button Styling */
+.button {
+    margin-top: 30px;
+}
+
+.button a {
+    background-color: #ff005c; /* Button color */
+    padding: 9px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.button a:hover {
+    background-color:#ba295e; /* Button hover color */
+    color: #fff;
+}
+
+/* Social Icons Styling */
+.social {
+    margin-top: 40px;
+}
+
+.social i {
+    color: #007bff; /* Color for the social media icons */
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.social i:hover {
+    color: #0056b3; /* Hover color for the social media icons */
+}
+
+/* Founder Section Styles */
+.founder-section {
+    background-color: #f9f9f9; /* Light background for the founder section */
+    padding-bottom: 70px; /* Adjusted padding for bottom spacing */
+}
+
+.founder-details {
+    text-align: center;
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add padding around the content */
+}
+.founder-details .f2 {
+    font-size: 26px;
+    color:#ff005c;
+}
+.founder-details h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color:#333; /* Color for the main subheading */
+    border-bottom: 2px solid #e0e0e0; /* Adding a bottom border for emphasis */
+    padding-bottom: 10px; /* Padding to separate text from the border */
+}
+
+.founder-details h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ff005c; /* Color for additional subheadings */
+    border-bottom: 1px solid #e0e0e0; /* Adding a bottom border for emphasis */
+    padding-bottom: 8px; /* Padding to separate text from the border */
+}
+
+.founder-details p {
+    font-size: 18px;
+    line-height: 1.8; /* Increased line height for better readability */
+    color: #333; /* Dark color for better contrast */
+    text-align: justify; /* Justify text for a cleaner look */
+    margin: 20px 0; /* Space between paragraphs */
+    padding: 0 15px; /* Padding for better text alignment */
+}
+
+/* Bullet Points Styling */
+.founder-details ul {
+    margin: 20px 0;
+    padding-left: 20px; /* Indent list items */
+}
+
+.founder-details ul li {
+    font-size: 18px;
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 10px; /* Space between list items */
+    color: #333; /* Dark color for list items */
+    position: relative; /* Position relative for custom bullet styling */
+}
+
+.founder-details ul li::before {
+    content: '•'; /* Custom bullet character */
+    color: #ff005c; /* Color of the bullet */
+    font-size: 24px; /* Size of the bullet */
+    position: absolute; /* Absolute positioning for custom bullets */
+    left: -25px; /* Adjust to position the bullet */
+    top: 0; /* Align with the top of the list item */
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%; /* Increase width to provide more space */
+    }
+
+    .image-section, .content-section {
+        flex: 1 1 100%;
+    }
+
+    .content-section {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .button a {
+        padding: 9px 30px;
+        font-size: 20px;
+    }
+
+    .social {
+        text-align: center;
+    }
+}
+
+/* For small mobile screens */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 0; /* Reduce padding for smaller screens */
+    }
+
+    header h1 {
+        font-size: 1rem; /* Smaller font size for the header text */
+    }
+
+    .header-logo {
+        width: 30px; /* Smaller logo for smaller screens */
+        vertical-align: middle; /* Align logo with text */
+    }
+
+    /* Ensure logo and text are aligned in a single line */
+    header img {
+        display: inline-block; /* Ensure logo and text are on the same line */
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+
+    .button a {
+        padding: 9px 25px;
+        font-size: 18px;
+    }
+
+    .title h1 {
+        font-size: 29px;
+    }
+}
